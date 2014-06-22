@@ -32,7 +32,7 @@ if(!is.null(inv)) {
   return(inv)
 }
 data <- x$get()
-inv <- mean(data, ...)
+inv <- solve(data, ...)
 x$setinverse(inv)
 inv
 }
