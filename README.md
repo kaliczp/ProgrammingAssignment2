@@ -12,6 +12,7 @@ Programming Assignment you will take advantage of the scoping rules of
 the R language and how they can be manipulated to preserve state inside
 of an R object.
 
+
 ### Example: Caching the Mean of a Vector
 
 In this example we introduce the `<<-` operator which can be used to
